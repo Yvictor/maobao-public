@@ -41,7 +41,7 @@
 
     <h2>資料存在哪裡</h2>
     <p>沒有開啟共記時，所有資料只存在你的手機裡（app 的私有儲存空間），不會上傳到任何伺服器，也不存 iCloud。</p>
-    <p>當你邀請另一位照顧者或用邀請碼加入，該寶寶的紀錄與附件會同步到我們在 Supabase（新加坡機房）代管的伺服器，只有同一位寶寶的照顧者能讀寫（以資料庫層級的存取控制強制）。傳輸全程加密（TLS）。</p>
+    <p>當你邀請另一位照顧者或用邀請碼加入，該寶寶的紀錄與附件會同步到我們在 Supabase（新加坡機房）代管的伺服器，只有同一位寶寶的照顧者能讀寫（以資料庫層級的存取控制強制）。傳輸全程加密（TLS）。若你開啟「通知另一位照顧者的紀錄」，紀錄摘要（例如「媽媽記了一筆用藥」）會經由 Apple 推播服務（APNs）送到對方的手機；關掉就不會送。</p>
 
     <h2>語音</h2>
     <p>語音記錄的辨識全部在你的裝置上完成（Apple 的裝置端語音辨識），錄音與文字不會傳給任何第三方。開啟共記後，語音備忘會與其他附件一樣同步給同一位寶寶的照顧者。</p>
@@ -89,7 +89,7 @@
 
     <h2>Where data is stored</h2>
     <p>Until you enable sharing, everything stays on your iPhone in the app's private storage. Nothing is uploaded to any server, and nothing is stored in iCloud.</p>
-    <p>When you invite another caregiver or join with an invite code, that baby's entries and attachments sync through our backend hosted on Supabase (Singapore region). Only caregivers of the same baby can read or write them, enforced by database-level access rules. All transfers are encrypted (TLS).</p>
+    <p>When you invite another caregiver or join with an invite code, that baby's entries and attachments sync through our backend hosted on Supabase (Singapore region). Only caregivers of the same baby can read or write them, enforced by database-level access rules. All transfers are encrypted (TLS). If you turn on "Notify the other caregiver", a short summary of the entry (e.g. "Mom logged a medication") is delivered through the Apple Push Notification service to their phone; turn it off and nothing is sent.</p>
 
     <h2>Voice</h2>
     <p>Speech recognition runs entirely on your device (Apple's on-device recognizer). Recordings and transcripts are never sent to third parties. With sharing enabled, voice memos sync to the same baby's caregivers like other attachments.</p>
